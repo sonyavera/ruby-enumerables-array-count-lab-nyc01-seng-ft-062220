@@ -1,5 +1,5 @@
 def count_strings(array)
-  array.count |element| do
+  array.count do |element|
     if element.class == string
       element
 end
